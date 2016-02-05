@@ -1,6 +1,6 @@
 Larry is your zsh terminal companion!
 
-![alt tag](http://i.imgur.com/MM1Ls9Z.png)
+![alt tag](https://github.com/williamholland/zsh-larry/blob/master/images/larry.png)
 
 # Usage
 
