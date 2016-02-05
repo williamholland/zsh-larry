@@ -1,6 +1,6 @@
 Larry is your zsh terminal companion!
 
-# INSTALL
+# Usage
 
 To install Larry add the following to your `~/.zshrc`
 
@@ -9,7 +9,17 @@ To install Larry add the following to your `~/.zshrc`
     alias poke="grumpy_larry"
     alias tickle="happy_larry"
 
-Then to see Larry use the `$LARRY` variable in your `PROMPT` or `RPROMPT`,
-ensure that these are defined _after_ `larry.zsh` is sourced
+Then to see Larry, put the following interpolation marker in your `PROMPT` or `RPROMPT`:
 
-![alt tag](http://i.imgur.com/MM1Ls9Z.png))]
+    {{LARRY}}
+
+ensure that these are defined _before_ `larry.zsh` is sourced
+
+## Example
+
+    PROMPT="{{LARRY}} %n@%m:%1~ %# "
+    source "${HOME}/.zsh/larry/larry.zsh"
+    alias poke="grumpy_larry"
+    alias tickle="happy_larry"
+
+![alt tag](http://i.imgur.com/MM1Ls9Z.png)
