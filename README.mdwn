@@ -1,5 +1,7 @@
 Larry is your zsh terminal companion!
 
+![alt tag](http://i.imgur.com/MM1Ls9Z.png)
+
 # Usage
 
 To install Larry add the following to your `~/.zshrc`
@@ -21,5 +23,3 @@ ensure that these are defined _before_ `larry.zsh` is sourced
     source "${HOME}/.zsh/larry/larry.zsh"
     alias poke="grumpy_larry"
     alias tickle="happy_larry"
-
-![alt tag](http://i.imgur.com/MM1Ls9Z.png)
