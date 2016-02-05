@@ -42,7 +42,7 @@ function Larry() {
     RPROMPT="$(larry_prompt_interp $LARRY_BKUP_RPROMPT $LARRY)"
 }
 
-function precmd() {
+function larry_precmd() {
     if [[ "$?" == 0 ]]; then
         if [[ $larry_happiness -gt 0 ]]; then
             larry_happiness=$(($larry_happiness+1))
@@ -58,6 +58,10 @@ function precmd() {
     fi
     Larry
 }
+
+# add larry precmd to precmds to be executed
+typeset -a precmd_functions
+precmd_functions+=larry_precmd
 
 function init_larry() {
     larry_happiness=0
