@@ -1,8 +1,8 @@
-very_happy_larry='(  ͡ ͜  ͡)'
-happy_larry='( ͡° ͜ ͡°)'
-neutral_larry='( ͡°_ ͡°)'
+very_happy_larry="( \U0361  \U035c \U0361 )"
+happy_larry="( \U0361\U00B0 \U035c \U0361\U00B0)"
+neutral_larry="( \U0361\U00B0 _ \U0361\U00B0)"
 grumpy_larry='( ͡°⏠ ͡°)'
-very_grumpy_larry='( ͡°Д ͡°)'
+very_grumpy_larry='( ° Д°)'
 
 LARRY_MARKER="{{LARRY}}"
 
